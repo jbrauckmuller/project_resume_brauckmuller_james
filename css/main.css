@@ -1,0 +1,29 @@
+header {
+	text-align: center;
+}
+
+article {
+	width: 90%;
+}
+
+
+.center_1, .center_2, .center_3, .center_4, .center_5 {
+	text-align: center;
+	width: 100%;
+	background-color: #e8e8e8;
+}
+
+.hidden_1, .hidden_2, .hidden_3, .hidden_4, .hidden_5  {
+	display: none;
+}
+
+.visuallyhidden {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+}
