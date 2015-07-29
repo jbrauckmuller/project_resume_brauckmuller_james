@@ -23,6 +23,8 @@ article {
 	cursor: pointer;
 	font-weight: lighter;
 	border-bottom: 1px solid #e8e8e8;
+	-webkit-transition: background-color .5s ease-in-out;
+    transition: background-color .5s ease-in-out;
 }
 
 .center_1:hover, .center_2:hover, .center_3:hover, .center_4:hover, .center_5:hover {
