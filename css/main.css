@@ -3,6 +3,7 @@
 body {
 	color: #4d4c4d;
 	font-family: 'Open Sans';
+	background-color: #f9f8f8;
 }
 
 
@@ -10,8 +11,27 @@ header {
 	text-align: center;
 }
 
+header h1 {
+	margin-bottom: 0;
+}
+
+header p {
+	margin-top: 0;
+	text-transform: uppercase;
+}
+
 article {
 	padding: 5%;
+	background-color: white;
+}
+
+footer {
+	text-align: center;
+}
+
+footer p {
+	color: #939598;
+	font-size: .7em;
 }
 
 p {
@@ -29,7 +49,7 @@ a:hover {
 	color: #0088CC;
 }
 
-.center_1, .center_2, .center_3, .center_4, .center_5 {
+.work, .education, .contact, .skill, .interest {
 	text-align: center;
 	width: 100%;
 	background-color: #e8e8e8;
@@ -42,7 +62,7 @@ a:hover {
     transition: background-color .5s ease-in-out;
 }
 
-.center_1:hover, .center_2:hover, .center_3:hover, .center_4:hover, .center_5:hover {
+.work:hover, .education:hover, .contact:hover, .skill:hover, .interest:hover {
 	background-color: white;
 	border-bottom: solid 1px #0088CC;
 }
@@ -75,7 +95,7 @@ a:hover {
 	color: #0088CC;
 }
 
-.school {
+.school, .experience {
 	background-color: #f9f8f8;
 }
 
@@ -89,4 +109,31 @@ a:hover {
 
 .teal {
 	border-bottom: 15px solid #82BFBF;
+}
+
+.uforange {
+	border-bottom: 15px solid #e28f41;
+}
+
+.ufblue {
+	border-bottom: 15px solid #6c9ac3;
+}
+
+.grey {
+	border-bottom: 15px solid #939598;
+}
+
+.extended {
+	display: none;
+}
+
+@media (min-width: 750px) {
+    .experience, .school {
+        display: inline-block;
+        width: 32%;
+    }
+
+    .extended {
+    	display: visible;
+    }
 }
