@@ -11,14 +11,29 @@ header {
 }
 
 article {
-	width: 90%;
+	padding: 5%;
+}
+
+p {
+	padding: 4px 0;
+}
+
+a {
+	text-decoration: none;
+	color: #4d4c4d;
+	-webkit-transition: color .5s ease-in-out;
+    transition: color .5s ease-in-out;
+}
+
+a:hover {
+	color: #0088CC;
 }
 
 .center_1, .center_2, .center_3, .center_4, .center_5 {
 	text-align: center;
 	width: 100%;
 	background-color: #e8e8e8;
-	margin: 0;
+	margin: 1px 0 0 0;
 	padding: .83em 0;
 	cursor: pointer;
 	font-weight: lighter;
@@ -35,6 +50,8 @@ article {
 
 .hidden_1, .hidden_2, .hidden_3, .hidden_4, .hidden_5  {
 	display: none;
+	border-top: 1px solid #0088CC;
+	text-align: center;
 }
 
 .visuallyhidden {
@@ -46,4 +63,30 @@ article {
 	padding: 0;
 	position: absolute;
 	width: 1px;
+}
+
+
+#headshot {
+	max-width: 50%;
+	margin: 0 25%;
+}
+
+.blue {
+	color: #0088CC;
+}
+
+.school {
+	background-color: #f9f8f8;
+}
+
+.red {
+	border-bottom: 15px solid #C77851;
+}
+
+.green {
+	border-bottom: 15px solid #A3B476;
+}
+
+.teal {
+	border-bottom: 15px solid #82BFBF;
 }
