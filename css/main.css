@@ -9,6 +9,13 @@ body {
 
 header {
 	text-align: center;
+	position: fixed;
+	width: 100%;
+	background-color: #f9f8f8;
+}
+
+main {
+	padding-top: 100px;
 }
 
 header h1 {
@@ -99,6 +106,11 @@ a:hover {
 	margin: 0 25%;
 }
 
+#homeimage {
+	display: none;
+	max-width: 65%;
+}
+
 .blue {
 	color: #0088CC;
 }
@@ -171,4 +183,17 @@ a:hover {
     .skill_col {
     	vertical-align: top;
     }
+
+	#homeimage {
+		display: block;
+		margin: auto;
+	}
+}
+
+@media (min-width: 1250px) {
+	section  {
+		max-width: 1250px;
+		margin: auto;
+	}
+
 }
