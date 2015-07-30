@@ -22,6 +22,7 @@ header p {
 
 article {
 	padding: 5%;
+<<<<<<< HEAD
 	background-color: white;
 }
 
@@ -32,6 +33,22 @@ footer {
 footer p {
 	color: #939598;
 	font-size: .7em;
+||||||| merged common ancestors
+=======
+<<<<<<< HEAD
+	background-color: white;
+}
+
+footer {
+	text-align: center;
+}
+
+footer p {
+	color: #939598;
+	font-size: .7em;
+=======
+>>>>>>> 7a5b2bcd9130458a1efdcd8717f25e72b4f9d718
+>>>>>>> 6f9dd7b89e8cf1057a6c97e55475dbc928316a27
 }
 
 p {
@@ -95,7 +112,17 @@ a:hover {
 	color: #0088CC;
 }
 
+<<<<<<< HEAD
 .school, .experience {
+||||||| merged common ancestors
+.school {
+=======
+<<<<<<< HEAD
+.school, .experience {
+=======
+.school {
+>>>>>>> 7a5b2bcd9130458a1efdcd8717f25e72b4f9d718
+>>>>>>> 6f9dd7b89e8cf1057a6c97e55475dbc928316a27
 	background-color: #f9f8f8;
 }
 
@@ -110,6 +137,7 @@ a:hover {
 .teal {
 	border-bottom: 15px solid #82BFBF;
 }
+<<<<<<< HEAD
 
 .uforange {
 	border-bottom: 15px solid #e28f41;
@@ -137,3 +165,42 @@ a:hover {
     	display: visible;
     }
 }
+||||||| merged common ancestors
+=======
+<<<<<<< HEAD
+
+.uforange {
+	border-bottom: 15px solid #e28f41;
+}
+
+.ufblue {
+	border-bottom: 15px solid #6c9ac3;
+}
+
+.grey {
+	border-bottom: 15px solid #939598;
+}
+
+.extended {
+	display: none;
+}
+
+@media (min-width: 750px) {
+    .experience, .school {
+        display: inline-block;
+        width: 32%;
+    }
+
+    .extended {
+    	display: block;
+    	max-width: 700px;
+    	margin: auto;
+    }
+
+    #headshot {
+    	max-width: 450px;
+    }
+}
+=======
+>>>>>>> 7a5b2bcd9130458a1efdcd8717f25e72b4f9d718
+>>>>>>> 6f9dd7b89e8cf1057a6c97e55475dbc928316a27
