@@ -26,4 +26,5 @@ $( document ).ready(function() {
     	$( 'body' ).animatescroll();
     });
 
+     $('.tooltip').tooltipster();
 });

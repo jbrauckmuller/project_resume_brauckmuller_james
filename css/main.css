@@ -6,7 +6,6 @@ body {
 	background-color: #f9f8f8;
 }
 
-
 header {
 	text-align: center;
 	position: fixed;
@@ -14,6 +13,7 @@ header {
 	background-color: #f9f8f8;
 	-webkit-box-shadow: 0 0 5px 3px #D4D4D4;
 	box-shadow: 0 0 5px 3px #D4D4D4;
+	cursor: pointer;
 }
 
 main {
@@ -29,7 +29,7 @@ header p {
 	text-transform: uppercase;
 }
 
-article {
+section {
 	padding: 5%;
 	background-color: white;
 }
@@ -119,6 +119,7 @@ a:hover {
 
 .school, .experience {
 	background-color: #f9f8f8;
+	padding-top: 1%;
 }
 
 .red {
@@ -177,7 +178,7 @@ a:hover {
     	max-width: 450px;
     }
 
-    article h3 {
+    section h3 {
     	padding-bottom: 3%;
     	margin-top: 0;
     }
@@ -193,7 +194,7 @@ a:hover {
 }
 
 @media (min-width: 1250px) {
-	section  {
+	main  {
 		max-width: 1250px;
 		margin: auto;
 	}
