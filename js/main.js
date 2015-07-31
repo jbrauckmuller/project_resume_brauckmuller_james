@@ -20,11 +20,12 @@ $( document ).ready(function() {
     $( '.interest' ).click(function() {
           $( '.interest_cont' ).fadeToggle();
     });
+
 // Animated Scroll
     $( 'header' ).click(function() {
-    	console.log('Header was clicked');
     	$( 'body' ).animatescroll();
     });
+
 // Tooltip
     $('.tooltip').tooltipster();
 });
