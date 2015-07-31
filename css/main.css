@@ -12,10 +12,12 @@ header {
 	position: fixed;
 	width: 100%;
 	background-color: #f9f8f8;
+	-webkit-box-shadow: 0 0 5px 3px #D4D4D4;
+	box-shadow: 0 0 5px 3px #D4D4D4;
 }
 
 main {
-	padding-top: 100px;
+	padding-top: 110px;
 }
 
 header h1 {
@@ -68,7 +70,7 @@ a:hover {
 .work, .education, .contact, .skill, .interest {
 	text-align: center;
 	width: 100%;
-	background-color: #e8e8e8;
+	background-color: #f9f8f8;
 	margin: 1px 0 0 0;
 	padding: .83em 0;
 	cursor: pointer;
@@ -79,7 +81,7 @@ a:hover {
 }
 
 .work:hover, .education:hover, .contact:hover, .skill:hover, .interest:hover {
-	background-color: white;
+	background-color: #e8e8e8;
 	border-bottom: solid 1px #0088CC;
 }
 
