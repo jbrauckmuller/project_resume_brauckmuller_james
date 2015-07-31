@@ -43,10 +43,6 @@ footer p {
 
 p {
 	padding: 4px 0;
-/* no chrome support */
-    hyphens: auto;
-    -ms-hyphens: auto;
-    -moz-hyphens: auto;
 }
 
 a {
