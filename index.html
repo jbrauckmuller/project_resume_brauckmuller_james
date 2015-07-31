@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Jamie Brauckmuller</title>
     <meta name="description" content="">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/vendor/normalize.min.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/tooltipster.css">
 </head>
 <body>
 	<header>
@@ -14,10 +16,12 @@
 		<p>Advertising Professional</p>
 	</header>
 	<main>
-		<section>
-			<img id="homeimage" src="img/homeimage.png" alt="background image" title="background image">
-			<h2 class="work">Work Experience</h2>
-				<article class="hidden_1">
+<!-- Hero Image - 750px min -->
+		<img id="homeimage" src="img/homeimage.png" alt="background image" title="background image">
+<!-- Work Experience -->
+		<div class="work"><p>Work Experience</p></div>
+			<section class="work_cont">
+				<h2 class="visuallyhidden">Work Experience</h2>
 				<h3>Recent Positions</h3>
 					<div class="experience red">
 						<p>Marketing Coordinator, FIP Printing</p>
@@ -31,9 +35,11 @@
 						<p>Technician/Installer, The TV Shop</p>
 						<p>Dunnellon, FL</p>
 					</div>
-				</article>
-			<h2 class="education">Education</h2>
-				<article class="hidden_2" >
+			</section>
+<!-- Education -->
+		<div class="education"><p>Education</p></div>
+			<section class="education_cont">
+				<h2 class="visuallyhidden">Education</h2>
 				<h3>Undergrad <span class="blue">&plus;</span> Graduate Studies</h3>
 					<div class="school grey">
 						<p>Associate in Arts</br>College of Central Florida</p>
@@ -50,16 +56,21 @@
 					<div class="extended">
 						<p>Upon graduating high school with high honors, I attended the College of Central Florida for two years in order to continue working full-time. After completing my AA, I transfered to the University of Florida where I received a Bachelor of Science in advertising with an outside concentration on business management.</p>
 					</div>
-				</article>
-			<h2 class="contact">Contact</h2>
-				<article class="hidden_3">
+			</section>
+<!-- Contact -->
+		<div  class="contact"><p>Contact</p></div>
+			<section class="contact_cont">
+				<h2 class="visuallyhidden">Contact</h2>
 					<h3>Contact Info</h3>
 					<img id="headshot" src="img/headshot.png" title="Jamie Brauckmuller" alt="Jamie Brauckmuller">
 					<p>Email: <a href="mailto:jamiebrauckmuller@gmail.com">JamieBrauckmuller@gmail.com</a></p>
-					<p>Mobile Phone: <a href="tel:352-445-0174">352-445-0174</a></p>
-				</article>
-			<h2 class="skill">Skills</h2>
-				<article class="hidden_4">
+					<p>Mobile Phone: <a class="tooltip" title="Click to call!" href="tel:352-445-0174">352-445-0174</a></p>
+			</section>
+<!-- Skills -->
+		<div class="skill"><p>Skills</p></div>
+			<section class="skill_cont">
+				<h2 class="visuallyhidden">Skill</h2>
+					<h3>Industry Know<span class="blue">-</span>How</h3>
 					<div class="skill_col">
 						<h3>Print <span class="blue">&plus;</span> Prepress</h3>
 						<p>Over 4 years experience working as a marketing coordinator for a commercial print and marketing firm, I have developed a direct knowledge of the prepress and printing processes.</p>
@@ -70,15 +81,30 @@
 					</div>
 					<div class="skill_col">
 						<h3>Graphic Design</h3>
-						<p>Creating marketing collateral and business forms, as well as website re-design and the creation and management of web-based subsidiary brnads and ordering systems.</p>
+						<p>Creating marketing collateral and business forms, as well as website re-design and the creation and management of web-based subsidiary brands and ordering systems.</p>
 					</div>
-				</article>
-			<h2 class="interest">Interests</h2>
-				<article class="hidden_5">
-
-
-				</article>
-		</section>
+			</section>
+<!-- Interests -->
+		<div class="interest"><p>Interests</p></div>
+			<section class="interest_cont">
+				<h2 class="visuallyhidden">Interests</h2>
+					<h3>In My Off Time</h3>
+					<div class="skill_col">
+						<img src="img/icon_tech.png">
+						<h3>Technology/Electronics</h3>
+						<p>Video games, computers, cameras, it's all fun stuff!</p>
+					</div>
+					<div class="skill_col">
+						<img src="img/icon_wood.png">
+						<h3>Woodworking</h3>
+						<p>Woodwork, trim and custom cabinetry solututions for housing electronic components.</p>
+					</div>
+					<div class="skill_col">
+						<img src="img/icon_beer.png">
+						<h3>Beer</h3>
+						<p>IPA's, craft beer, cheap beer, cold beer... you get the idea.</p>
+					</div>
+			</section>
 		<footer><p>Content and Design by James Brauckmuller</br>&copy;2014 All Rights Reserved</p>
 		</footer>
 	</main>
@@ -87,6 +113,7 @@
 	<script src-"https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script>window.jQuery || document.write('script src="js/jQuery-2.1.3.js"><\/script>')</script>
 	<script src="js/animatescroll.min.js"></script>
+	<script src="js/jquery.tooltipster.min.js"></script>
 	<script src="js/main.js"></script>
 </body>
 </html>
