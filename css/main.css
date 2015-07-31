@@ -6,6 +6,10 @@ body {
 	background-color: #f9f8f8;
 }
 
+main {
+	padding-top: 110px;
+}
+
 header {
 	text-align: center;
 	position: fixed;
@@ -14,10 +18,6 @@ header {
 	-webkit-box-shadow: 0 0 5px 3px #D4D4D4;
 	box-shadow: 0 0 5px 3px #D4D4D4;
 	cursor: pointer;
-}
-
-main {
-	padding-top: 110px;
 }
 
 header h1 {
@@ -32,15 +32,6 @@ header p {
 section {
 	padding: 5%;
 	background-color: white;
-}
-
-footer {
-	text-align: center;
-}
-
-footer p {
-	color: #939598;
-	font-size: .7em;
 }
 
 footer {
@@ -72,7 +63,7 @@ a:hover {
 	width: 100%;
 	background-color: #f9f8f8;
 	margin: 1px 0 0 0;
-	padding: .83em 0;
+	padding: 1.2em 0;
 	cursor: pointer;
 	font-weight: lighter;
 	border-bottom: 1px solid #e8e8e8;
@@ -80,13 +71,20 @@ a:hover {
     transition: background-color .5s ease-in-out;
 }
 
+.work p, .education p, .contact p, .skill p, .interest p {
+	font-size: 1.5em;
+	padding: 0;
+	margin: 0;
+}
+
+
 .work:hover, .education:hover, .contact:hover, .skill:hover, .interest:hover {
 	background-color: #e8e8e8;
 	border-bottom: solid 1px #0088CC;
 }
 
 
-.hidden_1, .hidden_2, .hidden_3, .hidden_4, .hidden_5  {
+.work_cont, .education_cont, .contact_cont, .skill_cont, .interest_cont  {
 	display: none;
 	border-top: 1px solid #0088CC;
 	text-align: center;

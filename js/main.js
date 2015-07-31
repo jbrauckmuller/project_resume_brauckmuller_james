@@ -1,30 +1,30 @@
 $( document ).ready(function() {
 
-// Collapsible Content Divs
+// Collapsible Content Sections
 	$( '.work' ).click(function() {
-    	$( '.hidden_1' ).slideToggle();
+    	$( '.work_cont' ).slideToggle();
     });
 
 	$( '.education' ).click(function() {
-    	$( '.hidden_2' ).slideToggle();
+    	$( '.education_cont' ).slideToggle();
     });
 
 	$( '.contact' ).click(function() {
-    	$( '.hidden_3' ).slideToggle();
+    	$( '.contact_cont' ).slideToggle();
     });
 
 	$( '.skill' ).click(function() {
-    	$( '.hidden_4' ).slideToggle();
+    	$( '.skill_cont' ).slideToggle();
     });
 
     $( '.interest' ).click(function() {
-          $( '.hidden_5' ).fadeToggle();
+          $( '.interest_cont' ).fadeToggle();
     });
-
+// Animated Scroll
     $( 'header' ).click(function() {
     	console.log('Header was clicked');
     	$( 'body' ).animatescroll();
     });
-
-     $('.tooltip').tooltipster();
+// Tooltip
+    $('.tooltip').tooltipster();
 });
