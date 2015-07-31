@@ -1,7 +1,6 @@
 $( document ).ready(function() {
 
 // Collapsible Content Divs
-
 	$( '.work' ).click(function() {
     	$( '.hidden_1' ).slideToggle();
     });
@@ -20,6 +19,11 @@ $( document ).ready(function() {
 
     $( '.interest' ).click(function() {
           $( '.hidden_5' ).fadeToggle();
+    });
+
+    $( 'header' ).click(function() {
+    	console.log('Header was clicked');
+    	$( 'body' ).animatescroll();
     });
 
 });
